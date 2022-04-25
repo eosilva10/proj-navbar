@@ -1,0 +1,50 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500;600;700;800;900&family=Mitr:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mitr";
+    font-weight: 550;
+    background: #3b9e96;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+#barra-nav {
+    background-color: #3e3e3fee;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#abas li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 8em;
+}
+
+#abas li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: all 0.8s ease;
+}
+
+#abas li a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: #3b9e96;
+}
